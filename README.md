@@ -2,8 +2,12 @@ Here’s a simple, clean example of how to build a PHP register + login system u
 
 Important Security Tips :-
 
-Always use password_hash() and password_verify() ✔️
-Use prepared statements (prevents SQL injection) ✔️
-Add validation (min password length, etc.)
-Use HTTPS in real projects
-Consider adding CSRF protection
+1. Always use password_hash() and password_verify() ✔️
+
+2. Use prepared statements (prevents SQL injection) ✔️
+
+3. Add validation (min password length, etc.)
+
+4. Use HTTPS in real projects
+
+5. Consider adding CSRF protection
